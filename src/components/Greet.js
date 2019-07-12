@@ -5,6 +5,8 @@ import React from 'react'
 // }
 
 // This is another way of writing of above simple function i.e. arrow function
-const Greet = () => <h1>Hello Saiprasad</h1>
+export const Greet = () => <h1>Hello Saiprasad</h1>
 
-export default Greet
+
+//Change default export to named export by exporting const Greet above
+// export default Greet
