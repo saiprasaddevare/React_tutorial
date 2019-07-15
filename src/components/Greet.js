@@ -5,6 +5,11 @@ import React from 'react'
 // }
 
 // This is another way of writing of above simple function i.e. arrow function
-const Greet = () => <h1>Hello Saiprasad</h1>
+const Greet = (props) => {
+    
+    //Check the console on the browser log
+    console.log(props)
 
+    return <h1>Hello {props.name} aka {props.heroName}</h1>
+}
 export default Greet
